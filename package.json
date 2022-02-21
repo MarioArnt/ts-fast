@@ -1,7 +1,8 @@
 {
   "name": "ts-fast",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-rc.1",
   "description": "Emit javascript from typescript without type-checking",
+  "repository": "https://github.com/MarioArnt/ts-fast",
   "main": "dist/lib/index.js",
   "bin": {
     "ts-fast": "dist/bin/index.js"

@@ -1,6 +1,6 @@
-# ts-fast
+# ts-fast 🙈 ⚡
 
-I created this tiny CLI util to work around the lack of ``--no-check`` or ``only-emit`` flags in official typescript `tsc` CLI.
+I created this tiny CLI util to work around the lack of ``--no-check`` or ``--only-emit`` flags in official typescript `tsc` CLI.
 
 This might be very useful when :
 
@@ -18,3 +18,7 @@ ts-fast -p ./config/ts-config.prod.json
 ````
 
 > It does not support other flags of tsc command like `--esModuleInterop`, we don't want to maintain an interface with a huge ammount of options. Anyway, all these configs can be all declared in tsconfig.json
+
+## Debug
+
+Export the following environment variable to enable verbose logging `DEBUG=ts-fast`.
