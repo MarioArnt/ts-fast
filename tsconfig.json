@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2020", "esnext", "esnext.asynciterable"],
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "target": "es2020",
+    "declaration": true,
+    "isolatedModules": false
+  }
+}
