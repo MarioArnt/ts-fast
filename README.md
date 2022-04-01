@@ -22,3 +22,8 @@ ts-fast -p ./config/ts-config.prod.json
 ## Debug
 
 Export the following environment variable to enable verbose logging `DEBUG=ts-fast`.
+
+## Caveats
+
+* not sure it works on Windows
+* not sure it works for "exotic" tsconfigs
