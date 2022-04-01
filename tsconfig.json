@@ -8,6 +8,7 @@
     "lib": ["es2020", "esnext", "esnext.asynciterable"],
     "noImplicitAny": true,
     "module": "CommonJS",
+    "sourceMap": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "noImplicitReturns": true,
