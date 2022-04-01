@@ -16,5 +16,6 @@ import { transpile } from '../lib';
   } catch (e) {
     console.error('[ts-fast] Unexpected error :');
     console.error(e);
+    process.exit(1);
   }
 })();
